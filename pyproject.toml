@@ -1,0 +1,18 @@
+[project]
+name = "ml-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "markupsafe<3.0",
+    "matplotlib>=3.10.6",
+    "numpy>=1.21,<2.2",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "tensorflow[and-cuda]>=2.20.0",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+]
